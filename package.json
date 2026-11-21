@@ -1,0 +1,11 @@
+{
+  "name": "keymap-conn-notion",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Notion 단축키 페이지를 읽어 3D 키보드로 보여주는 사이트",
+  "scripts": {
+    "sync": "node --env-file=.env scripts/sync-notion.js",
+    "start": "node server.js"
+  }
+}

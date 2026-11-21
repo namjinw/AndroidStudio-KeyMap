@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>단축키 키맵</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside id="sidebar" class="sidebar">
+    <button id="toggle" class="toggle" aria-label="사이드바 열기/닫기" title="사이드바 열기/닫기">
+      <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+    <nav id="nav" class="nav"></nav>
+    <div id="list" class="list"></div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <h1>⌨️ 단축키</h1>
+      <div id="chips" class="chips" aria-label="키 필터"></div>
+      <div class="seg" id="layoutSeg">
+        <button data-layout="full">풀사이즈</button>
+        <button data-layout="tkl">텐키리스</button>
+      </div>
+    </header>
+
+    <section class="stage" id="stage"><div id="board" class="board"></div></section>
+
+    <section id="detail" class="detail"></section>
+  </main>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>

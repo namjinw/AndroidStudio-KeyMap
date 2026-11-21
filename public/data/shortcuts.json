@@ -1,0 +1,272 @@
+{
+  "categories": [
+    {
+      "id": "green",
+      "label": "파일, 폴더",
+      "color": "green"
+    },
+    {
+      "id": "red",
+      "label": "열기",
+      "color": "red"
+    },
+    {
+      "id": "blue",
+      "label": "실행 관련",
+      "color": "blue"
+    },
+    {
+      "id": "brown",
+      "label": "코드 작업",
+      "color": "brown"
+    },
+    {
+      "id": "pink",
+      "label": "그 외",
+      "color": "pink"
+    }
+  ],
+  "shortcuts": [
+    {
+      "id": "ctrl+shift+q",
+      "name": "Dart 파일 생성",
+      "description": "선택한 폴더에 새 Dart 파일을 만드는 단축키예요. 이름만 입력하면 .dart 파일이 바로 생성돼요.",
+      "keys": [
+        "Ctrl",
+        "Shift",
+        "Q"
+      ],
+      "category": "green"
+    },
+    {
+      "id": "ctrl+shift+alt+q",
+      "name": "kotlin 파일 생성",
+      "description": "새 Kotlin 파일을 만듭니다. 안드로이드 네이티브 코드를 작성할 때 유용해요.",
+      "keys": [
+        "Ctrl",
+        "Shift",
+        "Alt",
+        "Q"
+      ],
+      "category": "green"
+    },
+    {
+      "id": "ctrl+alt+d",
+      "name": "폴더 생성",
+      "description": "현재 위치에 새 폴더(디렉터리)를 만듭니다. 프로젝트 구조를 정리할 때 써요.",
+      "keys": [
+        "Ctrl",
+        "Alt",
+        "D"
+      ],
+      "category": "green"
+    },
+    {
+      "id": "alt+;",
+      "name": "Rename (이름 변경)",
+      "description": "선택한 파일, 폴더, 클래스, 변수 이름을 바꾸고 참조하는 곳도 함께 수정해줘요.",
+      "keys": [
+        "Alt",
+        ";"
+      ],
+      "category": "green"
+    },
+    {
+      "id": "ctrl+alt+s",
+      "name": "설정 열기",
+      "description": "IDE 설정(Settings) 창을 엽니다. 키맵, 테마, 플러그인 등을 여기서 바꿔요.",
+      "keys": [
+        "Ctrl",
+        "Alt",
+        "S"
+      ],
+      "category": "pink"
+    },
+    {
+      "id": "alt+z",
+      "name": "Project(폴더 사이드바 열기)",
+      "description": "Project 도구창을 열고 닫아 폴더/파일 트리를 사이드바에 보여줘요.",
+      "keys": [
+        "Alt",
+        "Z"
+      ],
+      "category": "red"
+    },
+    {
+      "id": "alt+x",
+      "name": "Commit(Git 사이드바 열기)",
+      "description": "Commit 도구창을 열어 Git 변경 사항을 확인하고 커밋할 수 있어요.",
+      "keys": [
+        "Alt",
+        "X"
+      ],
+      "category": "red"
+    },
+    {
+      "id": "alt+j",
+      "name": "Problem (코드 오류창 열기)",
+      "description": "Problems 창을 열어 코드의 오류와 경고를 한눈에 모아 볼 수 있어요.",
+      "keys": [
+        "Alt",
+        "J"
+      ],
+      "category": "pink"
+    },
+    {
+      "id": "alt+l",
+      "name": "Terminal(터미널 열기)",
+      "description": "하단에 터미널을 열어 flutter 명령어 등을 바로 실행할 수 있어요.",
+      "keys": [
+        "Alt",
+        "L"
+      ],
+      "category": "pink"
+    },
+    {
+      "id": "alt+k",
+      "name": "Run(실행 로그 열기)",
+      "description": "Run 창을 열어 앱 실행 로그와 콘솔 출력을 확인합니다.",
+      "keys": [
+        "Alt",
+        "K"
+      ],
+      "category": "red"
+    },
+    {
+      "id": "ctrl+shift+\\",
+      "name": "Hot Restart (재시작)",
+      "description": "앱 상태를 초기화하면서 처음부터 다시 시작합니다. 상태가 꼬였을 때 사용해요.",
+      "keys": [
+        "Ctrl",
+        "Shift",
+        "\\"
+      ],
+      "category": "blue"
+    },
+    {
+      "id": "ctrl+\\",
+      "name": "Hot Reload(화면 재랜더링)",
+      "description": "앱 상태는 유지한 채 변경한 코드만 화면에 즉시 반영합니다. 가장 자주 쓰는 단축키예요.",
+      "keys": [
+        "Ctrl",
+        "\\"
+      ],
+      "category": "blue"
+    },
+    {
+      "id": "alt+enter",
+      "name": "빠른 수정 (위젯 감싸기 등)",
+      "description": "커서가 있는 곳의 빠른 수정 메뉴를 띄워요. 위젯 감싸기, import 추가, 오류 수정 등을 고를 수 있어요.",
+      "keys": [
+        "Alt",
+        "Enter"
+      ],
+      "category": "blue"
+    },
+    {
+      "id": "alt+,",
+      "name": "RUN (실행)",
+      "description": "선택한 구성으로 앱을 실행합니다.",
+      "keys": [
+        "Alt",
+        ","
+      ],
+      "category": "blue"
+    },
+    {
+      "id": "alt+.",
+      "name": "Stop (중지)",
+      "description": "실행 중인 앱을 중지합니다.",
+      "keys": [
+        "Alt",
+        "."
+      ],
+      "category": "blue"
+    },
+    {
+      "id": "ctrl++",
+      "name": "코드 블럭 열기",
+      "description": "접혀 있는 코드 블록을 펼칩니다.",
+      "keys": [
+        "Ctrl",
+        "+"
+      ],
+      "category": "brown"
+    },
+    {
+      "id": "ctrl+-",
+      "name": "코드 블럭 접기",
+      "description": "현재 코드 블록(함수, 클래스 등)을 접어서 코드를 간결하게 볼 수 있어요.",
+      "keys": [
+        "Ctrl",
+        "-"
+      ],
+      "category": "brown"
+    },
+    {
+      "id": "ctrl+'",
+      "name": "close Tab (탭 닫기)",
+      "description": "현재 열려 있는 에디터 탭을 닫습니다.",
+      "keys": [
+        "Ctrl",
+        "'"
+      ],
+      "category": "brown"
+    },
+    {
+      "id": "ctrl+alt+l",
+      "name": "코드 정리(포맷)",
+      "description": "코드 스타일에 맞게 들여쓰기와 줄바꿈을 자동으로 정리해줘요.",
+      "keys": [
+        "Ctrl",
+        "Alt",
+        "L"
+      ],
+      "category": "brown"
+    },
+    {
+      "id": "ctrl+alt+o",
+      "name": "import 정리",
+      "description": "사용하지 않는 import를 지우고 순서를 정리해줘요.",
+      "keys": [
+        "Ctrl",
+        "Alt",
+        "O"
+      ],
+      "category": "brown"
+    },
+    {
+      "id": "ctrl+alt+←",
+      "name": "이전 코드 위치로 이동",
+      "description": "이전에 있던 코드 위치로 돌아갑니다. 정의로 이동한 뒤 돌아올 때 편해요.",
+      "keys": [
+        "Ctrl",
+        "Alt",
+        "←"
+      ],
+      "category": "brown"
+    },
+    {
+      "id": "ctrl+alt+→",
+      "name": "최근 코드 위치로 이동",
+      "description": "뒤로 갔다가 다시 앞의 코드 위치로 이동합니다.",
+      "keys": [
+        "Ctrl",
+        "Alt",
+        "→"
+      ],
+      "category": "brown"
+    },
+    {
+      "id": "ctrl+alt+↑",
+      "name": "Go to Declaration or Usages(함수 구현부로 이동)",
+      "description": "커서가 놓인 함수나 변수의 선언부(구현부)로 이동하거나, 선언부에서는 사용처 목록을 보여줘요.",
+      "keys": [
+        "Ctrl",
+        "Alt",
+        "↑"
+      ],
+      "category": "brown"
+    }
+  ]
+}
