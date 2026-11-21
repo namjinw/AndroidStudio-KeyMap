@@ -1,4 +1,4 @@
-// 노션 단축키 페이지 -> public/data/shortcuts.json
+// 노션 단축키 페이지 -> docs/data/shortcuts.json
 // 사용: npm run sync [노션 URL 또는 페이지 ID]
 // 규칙: 이미 description이 있는 단축키는 그대로 두고, 새 단축키만 빈 값으로 추가한다.
 import { readFile, writeFile, mkdir } from "node:fs/promises";
@@ -6,7 +6,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const OUT = resolve(ROOT, "public/data/shortcuts.json");
+const OUT = resolve(ROOT, "docs/data/shortcuts.json");
 const DEFAULT_PAGE = "405e6fa7a8d9806da43bee761c43c038";
 
 const token = process.env.NOTION_KEY;

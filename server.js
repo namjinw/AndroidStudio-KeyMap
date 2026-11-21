@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import { extname, join, normalize, resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const PUBLIC = resolve(dirname(fileURLToPath(import.meta.url)), "public");
+const PUBLIC = resolve(dirname(fileURLToPath(import.meta.url)), "docs");
 const PORT = Number(process.env.PORT) || 3000;
 const TYPES = {
   ".html": "text/html; charset=utf-8",
